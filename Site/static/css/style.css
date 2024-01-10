@@ -349,3 +349,16 @@
 .copyright a:hover {
     color: var(--light);
 }
+
+.larger-font {
+    font-size: 2em; /* Hoặc bất kỳ giá trị nào khác phù hợp */
+}
+
+.wider-heading {
+    width: 100%; /* Hoặc bất kỳ giá trị nào khác phù hợp */
+}
+
+
+.col-lg-4.col-md-6.wow.fadeInUp {
+    width: 50%;
+  }
