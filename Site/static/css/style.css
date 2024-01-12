@@ -421,6 +421,7 @@
         font-size: 15px;
         font-weight: 700;
         text-transform: uppercase;
+        text-align: center;
     }
     
     .feedback {
@@ -430,11 +431,43 @@
         text-align: justify;
     }
     
-    .content .job {
-        -o-text-overflow: ellipsis;
-        -webkit-box-orient: vertical;
-        display: -webkit-box;
-        overflow: hidden;
-        font-family: Muli;
-        text-overflow: ellipsis;
+    .row.g-4.justify-content-center {
+        margin-bottom: 59px;
+    }
+    
+    .img-fluid.courseIndex {
+        height: 400px;
+        width: fit-content;
+    }
+    
+    .text-multi ul li {
+        margin-bottom: 5px;
+    }
+    
+    .ptxt {
+        padding: 5px;
+    }
+    
+    .jobTTDPT ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .jobTTDPT ul li {
+        margin-bottom: 10px;
+        /* Khoảng cách giữa các hàng */
+    }
+    
+    .h3-about {
+        text-align: center;
+    }
+    
+    .p-about {
+        text-align: justify;
+        padding: 15px;
+        line-height: 25px;
+    }
+    
+    #h3-course {
+        text-align: center;
     }

@@ -7,14 +7,13 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{% static '/img/banner-1.jpg'%}" alt="Image" class="d-block w-100" style="max-height: 850px;">
+                    <img src="{% static '/img/mau2.jpg'%}" alt="Image" class="d-block w-100" style="max-height: 850px;">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-7">
                                     <h1 class="display-2 text-light mb-5 animated slideInDown">Định Hướng Chuyên Sâu</h1>
-                                    <a href="" class="btn btn-primary py-sm-3 px-sm-5">Learn More</a>
-                                    <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">Our Courses</a>
+                                    <a href="{% url 'course' %}" class="btn btn-warning py-sm-3 px-sm-5 ms-3">Our Courses</a>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +104,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
                         <img class="position-absolute w-100 h-100" src="{% static '/img/img-1.jpg'%}" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="{% static '/img/about-2.jpg'%}" alt="" style="width: 200px; height: 200px;">
+                        <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="{% static '/img/old-1995.jpg'%}" alt="" style="width: 240px; height: 240px;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -132,7 +131,7 @@
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <h6 class="text-primary text-uppercase mb-2">Ngành Đào Tạo</h6>
-                <h1 class="display-6 mb-4 larger-font wider-heading">Thực Hiện Đào Tạo Các Ngành</h1>
+                <h1 class="display-6 mb-4 larger-font wider-heading">Thực Hiện Đào Tạo Ngành</h1>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -146,31 +145,14 @@
                                 dùng các kỹ thuật lập trình Java, .NET, C#, ....</p>
                             <ol class="breadcrumb justify-content-center mb-0">
                                 <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Kỹ Sư</li>
-                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>4 - 4.5 Năm</li>
                             </ol>
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="{% static '/img/multimedia.jpg'%}" alt="multimedia">
+                            <img class="img-fluid courseIndex" src="{% static '/img/multimedia.jpg'%}" alt="multimedia">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
-                        <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4"></div>
-                            <h5 class="mb-3">Công Nghệ Thông Tin - Chuyên Ngành Tin Học Ứng Dụng</h5>
-                            <p>Chương trình đào tạo Công nghệ thông tin chuyên ngành Tin học ứng dụng đã được tự đánh giá nội bộ theo tiêu chuẩn của Bộ Giáo dục đào tạo vào năm 2019</p>
-                            <ol class="breadcrumb justify-content-center mb-0">
-                                <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Kỹ Sư</li>
-                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
-                            </ol>
-                        </div>
-                        <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="{% static '/img/informationTechnology.png'%}" alt="informationTechnology">
-                        </div>
-                    </div>
-                </div>
-                
 
             </div>
         </div>
@@ -202,7 +184,7 @@
                                 </div>
                                 <h5 class="mb-0">Giảng dạy</h5>
                             </div>
-                            <span>Phương pháp giảng dạy mới, đạt được hiệu quả cao cho người họcc</span>
+                            <span>Phương pháp giảng dạy mới, đạt được hiệu quả cao cho người học</span>
                         </div>
                         <div class="col-sm-6 wow fadeIn " data-wow-delay="0.3s">
                             <div class="d-flex align-items-center mb-3">
@@ -211,14 +193,14 @@
                                 </div>
                                 <h5 class="mb-0">Đánh giá</h5>
                             </div>
-                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
+                            <span>Đánh giá dựa trên nhiều tiêu chí mà người học đã được học trên lớp cũng như vận dụng thực hành</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="position-relative overflow-hidden pe-5 pt-5 h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100" src="{% static '/img/about-1.jpg'%}" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 end-0 bg-white ps-3 pb-3" src="{% static '/img/about-2.jpg'%}" alt="" style="width: 200px; height: 200px">
+                        <img class="position-absolute w-100 h-100" src="{% static '/img/phuongphapday.jpg'%}" alt="" style="object-fit: cover;">
+                        <img class="position-absolute top-0 end-0 bg-white ps-3 pb-3" src="{% static '/img/phuongphapday2.jpg'%}" alt="" style="width: 300px; height: 200px">
                     </div>
                 </div>
             </div>
@@ -237,16 +219,13 @@
             <div class="row feedback d-flex align-items-stretch">            
                 <div class="col-lg-6 feedback">
                     <div class="feedback-item">
-                        <div class="imgReason">
-                            <img src="{% static '/img/avt-ttdpt/HMTri.png' %}" alt="MSc Hoang Minh Tri">
-                        </div>
                         <div class="content">
-                            <div class="name">Thạc Sĩ Hoàng Minh Trí</div>
-                            <div class="job">Giảng viên Khoa Truyền thông đa phương tiện
-                            </div>
+                            <div class="name"><i class="fas fa-business-time"></i> Linh động được thời gian</div>
                             <div class="feedback">
-                                "Với mình, tuổi trẻ là để khám phá những điều mới mẻ về Media. Mình yêu thích ngành Truyền thông. 
-                                Với sự khác biệt và sáng tạo trong phương thức đào tạo của Đại học FPT, mình tin tưởng Đại học FPT sẽ giúp mình thoả sức sáng tạo trong lĩnh vực này".
+                                Khi chọn ngành này, bạn có thể chủ động được thời gian làm việc của mình. 
+                                Điều mà các doanh nghiệp truyền thông cần hiện nay ở một nhân viên là chất lượng sản phẩm được tạo ra chứ không phải là thời gian bạn ở công ty được bao lâu. 
+                                Bạn cũng không cần phải "chôn chân" tại văn phòng hàng giờ như các ngành khác. 
+                                Điều đó, không có nghĩa là bạn buông lỏng công việc, bạn phải đảm bảo đúng deadline và sản phẩm đạt chất lượng.
                             </div>
                         </div>
                     </div>
@@ -254,16 +233,12 @@
 
                 <div class="col-lg-6 feedback">
                     <div class="feedback-item">
-                        <div class="imgReason">
-                            <img src="{% static '/img/avt-ttdpt/HMTri.png' %}" alt="MSc Hoang Minh Tri">
-                        </div>
                         <div class="content">
-                            <div class="name">Nghiêm Hoàng Linh</div>
-                            <div class="job">Sinh viên ngành Truyền thông đa phương tiện
-                            </div>
+                            <div class="name"><i class="fas fa-globe"></i> Công việc "xuyên biên giới"</div>
                             <div class="feedback">
-                                "Với mình, tuổi trẻ là để khám phá những điều mới mẻ về Media. Mình yêu thích ngành Truyền thông. 
-                                Với sự khác biệt và sáng tạo trong phương thức đào tạo của Đại học FPT, mình tin tưởng Đại học FPT sẽ giúp mình thoả sức sáng tạo trong lĩnh vực này".
+                                Sau khi học Truyền Thông Đa Phương Tiện, bạn có thể làm việc tại bất cứ đâu. 
+                                Thông qua các kênh online, bạn có thể tìm và nhận được việc ở các tỉnh thành khác nhau, thậm chí là tại các đất nước khác. 
+                                Nếu bạn có trình độ chuyên môn và khả năng giao tiếp Tiếng Anh tốt, bạn có thể tự tin nhận được các dự án mang tầm cỡ quốc tế, cả khi bạn đang ngồi tại nhà.
                             </div>
                         </div>
                     </div>
@@ -271,16 +246,25 @@
                 
                 <div class="col-lg-6 feedback">
                     <div class="feedback-item">
-                        <div class="imgReason">
-                            <img src="{% static '/img/avt-ttdpt/HMTri.png' %}" alt="MSc Hoang Minh Tri">
-                        </div>
                         <div class="content">
-                            <div class="name">Nghiêm Hoàng Linh</div>
-                            <div class="job">Sinh viên ngành Truyền thông đa phương tiện
-                            </div>
+                            <div class="name"><i class="fas fa-satellite"></i> Là ngành học hiện đại, đang là xu thế</div>
                             <div class="feedback">
-                                "Với mình, tuổi trẻ là để khám phá những điều mới mẻ về Media. Mình yêu thích ngành Truyền thông. 
-                                Với sự khác biệt và sáng tạo trong phương thức đào tạo của Đại học FPT, mình tin tưởng Đại học FPT sẽ giúp mình thoả sức sáng tạo trong lĩnh vực này".
+                                Xã hội càng phát triển, càng có nhiều bước ngoặt bao nhiêu thì ngành truyền thông lại càng phát triển rộng rãi. 
+                                Nó dần trở thành một phần không thể thiếu của sự phát triển xã hội ngày nay. 
+                                Theo nhận định của các chuyên gia, Truyền Thông Đa Phương Tiện trong tương lai sẽ phát triển hơn nữa, được nhiều người biết đến và có chỗ đứng vững vàng trên thị trường.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 feedback">
+                    <div class="feedback-item">
+                        <div class="content">
+                            <div class="name"><i class="fas fa-money-check-alt"></i> Cơ hội việc làm rất hấp dẫn</div>
+                            <div class="feedback">
+                                Hiện nay, việc thiếu hụt nhân lực có chuyên môn giỏi trong nghề Truyền Thông Đa Phương Tiện tại Việt Nam là rất lớn. 
+                                Vì vậy, có kiến thức chuyên môn, được đào tạo bài bản bạn sẽ dễ dàng tìm được cho mình một vị trí hoàn hảo trong ngành này. 
+                                Công việc mang tính sáng tạo, hàm lượng chất xám cao nên thu nhập cũng theo đó mà tương xứng.
                             </div>
                         </div>
                     </div>
@@ -291,25 +275,58 @@
     </div>
     <!-- Team End -->
 
-
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-6">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h6 class="text-primary text-uppercase mb-2">Chuyên Môn</h6>
-                <h1 class="display-6 mb-4 larger-font wider-heading ">Sản Phẩm Đầu Tay!</h1>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
-                    <div>
-                        <iframe width="800" height="450" src="https://www.youtube.com/embed/o1McHXRCIL0" title="BƯỚC KHỞI NGUYÊN" frameborder="0" allowautoplay allowfullscreen></iframe>
+    <div class="row justify-content-center">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 1000px;">
+            <h6 class="text-primary text-uppercase mb-2">Lớp Học</h6>
+            <h1 class="display-6 mb-4g">Truyền Thông Đa Phương Tiện</h1>
+        </div>
+        <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item text-center">
+                    <div class="position-relative mb-5">
+                        <video width="100%" height="450" controls autoplay>
+                            <source src="{% static 'video/hau_ky.mp4' %}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle" style="width: 60px; height: 60px;">
+                            <i class="fa fa-quote-left fa-2x text-primary"></i>
+                        </div>
                     </div>
+                    <p class="fs-4">Sinh viên sẽ được giảng dạy các ứng dụng để xử lý ảnh, video, audio trên phần mềm chuyên nghiệp.</p>
+                    <hr class="w-25 mx-auto">
+                    <h5>Lớp Xử Lý Ảnh Hậu Kỳ</h5>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="position-relative mb-5">
+                        <video width="100%" height="450" controls autoplay>
+                            <source src="{% static 'video/chup_san_pham.mp4' %}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>                        
+                        <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle" style="width: 60px; height: 60px;">
+                            <i class="fa fa-quote-left fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                    <p class="fs-4">Lớp học quay phim, chụp ảnh giúp sinh viên học những kỹ năng chụp ảnh cho sản phẩm hoặc quay những thước phim chuyên nghiệp.</p>
+                    <hr class="w-25 mx-auto">
+                    <h5>Lớp Quay Phim và Chụp Ảnh</h5>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="position-relative mb-5">
+                        <video width="100%" height="450" controls autoplay>
+                            <source src="{% static 'video/lophoc1.mp4' %}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>                        
+                        <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle" style="width: 60px; height: 60px;">
+                            <i class="fa fa-quote-left fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                    <p class="fs-4">Lớp học năng động, sáng tạo, tạo điều kiện cho sinh viên dễ tiếp thu.</p>
+                    <hr class="w-25 mx-auto">
+                    <h5>Tiết Thực Hành </h5>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Testimonial End -->
-
 
 
 
