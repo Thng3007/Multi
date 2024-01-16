@@ -43,7 +43,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
         <div class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
-            <a href="{% url 'index' %}" ><img src="{% static '/img/logo_CTU.png'%}" alt="logo_CTU" style="max-width: 80px; max-height: 80px;"></a>
+            <a href="{% url 'index' %}" ><img src="{% static '/img/CICT.jpg'%}" alt="logo_CICT" style="max-width: 80px; max-height: 80px; margin-right: 5px;"></a>
             <h2 class="m-0">
                 Trường Công Nghệ Thông Tin và Truyền Thông
                 <br />
@@ -82,28 +82,28 @@
                 <div class="container">
                     <div class="row g-5">
                         <div class="col-lg-3 col-md-6">
-                            <h4 class="text-white mb-4"><img src="{% static '/img/banner-small.png' %}"></h4>
+                            {% comment %} <h4 class="text-white mb-4"><img src="{% static '/img/banner-small.png' %}"></h4> {% endcomment %}
                             <h2 class="text-primary mb-4"><i class="fas fa-map-marker-alt"> Khu 2, Đ. 3/2, P. Xuân Khánh, Q. Ninh Kiều, TP. CT</i></h2>
                             <p class="mb-2"><i class="fas fa-phone-alt"></i> +84 0292 3 734713 - 0292 3 831301</p>
-                            <p class="mb-2"><i class="fas fa-fax"></i> +84 0292 3830841</p>
-                            <p class="mb-2"><i class="fa fa-envelope me-3"></i>ttdpt@cit.ctu.edu.vn</p>
+                            {% comment %} <p class="mb-2"><i class="fas fa-fax"></i> +84 0292 3830841</p>
+                            <p class="mb-2"><i class="fa fa-envelope me-3"></i>ttdpt@cit.ctu.edu.vn</p> {% endcomment %}
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <h4 class="text-light mb-4">Hệ Thống</h4>
                             <a class="btn btn-link" href="https://www.cit.ctu.edu.vn/" target="_blank">Trường CNTT</a>
                             <a class="btn btn-link" href="https://mail.google.com" target="_blank">Thư Điện Tử</a>
-                            <a class="btn btn-link" href="https://elearning.ctu.edu.vn" target="_blank">Elearning</a>
                             <a class="btn btn-link" href="https://htql.ctu.edu.vn" target="_blank">Hệ Thống QLĐT</a>
                             <a class="btn btn-link" href="https://www.cit.ctu.edu.vn/vpk/login" target="_blank">Xác Nhận Đơn</a>
-                            <a class="btn btn-link" href="https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/index" target="_blank">Tạp Chí Khoa Học ĐHCT</a>
-                            <a class="btn btn-link" href="https://helpdesk.ctu.edu.vn/" target="_blank">Trợ Giúp</a>
+                            <a class="btn btn-link" href="https://www.cit.ctu.edu.vn/index.php/ban-tin/tuy-n-d-ng-vi-c-lam">Tuyển Dụng</a>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <h4 class="text-light mb-4">THÔNG TIN</h4>
                             <a class="btn btn-link" href="https://events.ctu.edu.vn/">Sự kiện</a>
                             <a class="btn btn-link" href="https://www.ctu.edu.vn/lich-cong-tac.html">Lịch trường</a>
                             <a class="btn btn-link" href="https://www.ctu.edu.vn/ctu-news.html">CTU News</a>
-                            <a class="btn btn-link" href="https://www.cit.ctu.edu.vn/index.php/ban-tin/tuy-n-d-ng-vi-c-lam">Tuyển Dụng</a>
+                            <a class="btn btn-link" href="https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/index" target="_blank">Tạp Chí Khoa Học ĐHCT</a>
+                            <a class="btn btn-link" href="https://helpdesk.ctu.edu.vn/" target="_blank">Trợ Giúp</a>
+                            <a class="btn btn-link" href="https://elearning.ctu.edu.vn" target="_blank">Elearning</a>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <h2 class="text-light mb-4">Liên Hệ</h2>

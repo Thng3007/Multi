@@ -28,10 +28,9 @@
 
 
 <script type="text/javascript">
-    // Đường dẫn tới file Excel của bạn
-    const excelFilePath = "{% static 'excel/detai_TTDPT.xlsx' %}";
+
+  const excelFilePath = "{% static 'excel/detai_TTDPT.xlsx' %}";
   
-    // Sử dụng SheetJS để đọc file Excel
     const xhr = new XMLHttpRequest();
     xhr.open('GET', excelFilePath, true);
     xhr.responseType = 'arraybuffer';
