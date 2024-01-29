@@ -37,3 +37,6 @@ def lecturer(request):
 
 def research(request):
     return render(request, "research.html", {})
+
+def portfolio(request):
+    return render(request, "index-portfolio.html", {})

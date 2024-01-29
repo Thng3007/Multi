@@ -19,12 +19,13 @@
                 <div class="team-item position-relative">
                     <div class="position-relative members">
                         <img class="img-fluid" src="{% static 'img/avt-ttdpt/NHHoa.jpg' %}" alt="Dr Nguyen Huu Hoa">
-                        <div class="team-social text-center">
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        </div>
                     </div>
                     <div class="bg-light text-center p-4">
-                        <h5 class="mt-2">Nguyễn Hữu Hoà</h5>
+                        <h5 class="mt-2">
+                            <a href="{% url 'portfolio' %}?code=2454&lang=vi">
+                                Nguyễn Hữu Hoà
+                            </a>                        
+                        </h5>
                         <span>Tiến Sĩ</span>
                         <p class="mt-2">Email: nnhoa@ctu.edu.vn</p>
                         <span>Hiệu Trưởng Trường Công Nghệ Thông Tin & TT</span>
